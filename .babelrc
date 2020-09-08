@@ -1,0 +1,22 @@
+{
+  "plugins": [
+    ["styled-components", { "ssr": true, "displayName": true, "preprocess": false }],
+    "@babel/plugin-proposal-class-properties",
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "regenerator": true
+      }
+    ]
+  ],
+  "presets": [
+    "next/babel",
+    "@babel/preset-react",
+    [
+      "@babel/preset-env",
+      {
+        "targets": { "browsers": ["last 2 chrome versions"] }
+      }
+    ]
+  ]
+}

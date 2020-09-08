@@ -1,65 +1,143 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import React, { Component } from 'react';
+import styled from 'styled-components';
 
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+const Container = styled.div`
+  max-width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+  @media only screen and (max-width: 1200px) {
+    padding-left: 40px;
+  }
+`;
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+const InnerWrapper = styled.div`
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`;
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+const SkillsTitle = styled.div`
+  font-size: 5.5em;
+  line-height: 1.2em;
+  font-weight: bold;
+  margin-top: -50px;
+  margin-bottom: 25px;
+  text-align: center;
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+  @media only screen and (max-width: 700px) {
+    font-size: 1.5em;
+  }
+`;
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+const SkillsItems = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
+  img {
+    height: 55px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
-  )
+  @media only screen and (max-width: 700px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      height: auto;
+      width: 300px;
+      margin-bottom: 50px;
+    }
+  }
+`;
+
+const Desc = styled.h2`
+  font-size: 5.5em;
+  line-height: 1.2em;
+  font-weight: bold;
+  margin-bottom: 60px;
+
+  @media only screen and (max-width: 700px) {
+    font-size: 3.5em;
+  }
+`;
+
+const DownIcon = styled.span`
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background: url(/image-sprite.png) no-repeat -5px -250px;
+  vertical-align: middle;
+  margin-right: 1.0em;
+  
+`;
+
+const CallToAction = styled.div`
+  a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    font-weight: bold;
+  }
+`;
+
+const WorkDisc = styled.div`
+  font-size: 1.2em;
+  margin-bottom: 40px;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+`;
+
+class Home extends Component {
+  render() {
+    return (
+      <>
+        <Container>
+          <title>Dilshan de Silva</title>
+          <main>
+            <InnerWrapper>
+              <Desc>
+                I build websites
+                <br /> in melbourne AU.
+                <br />
+              </Desc>
+
+              <CallToAction>
+                <a href="">
+                  <DownIcon />
+                  Learn more
+                </a>
+              </CallToAction>
+            </InnerWrapper>
+          </main>
+        </Container>
+
+        <Container>
+          <main>
+            <InnerWrapper>
+              <SkillsTitle>Full stack developer using</SkillsTitle>
+              <SkillsItems>
+                <img src="/react.png" alt="" />
+                <img src="/node.png" alt="" />
+                <img src="/adobe.fw.png" alt="" />
+                <img src="/aws.png" alt="" />
+              </SkillsItems>
+            </InnerWrapper>
+          </main>
+        </Container>
+      </>
+    );
+  }
 }
+
+export default Home;
