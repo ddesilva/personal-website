@@ -65,7 +65,7 @@ class BackgroundVideo extends Component {
         color2: 0xff0000,
         colorMode: 'lerpGradient',
       });
-    }, 0);
+    }, 500);
   };
 
   componentWillMount() {
