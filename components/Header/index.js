@@ -89,7 +89,7 @@ class Header extends Component {
               LinkedIn
             </a>
             <a href={'https://about.me/ddesilva'} target={'blank'}>
-              <a>About</a>
+              About
             </a>
             <a href={'https://steamcommunity.com/id/SchrodingersCat80'} target={'blank'}>
              Steam
