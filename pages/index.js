@@ -28,7 +28,7 @@ const SkillsTitle = styled.div`
   margin-bottom: 25px;
   text-align: center;
 
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 1200px) {
     font-size: 1.5em;
   }
 `;
@@ -44,7 +44,7 @@ const SkillsItems = styled.div`
     margin-right: 40px;
   }
 
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 1200px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
