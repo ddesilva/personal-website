@@ -9,8 +9,8 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin:0 !important;
     height: 100%;
- background: rgb(110,231,249);
-background: linear-gradient(259deg, rgba(110,231,249,1) 0%, rgba(27,43,87,1) 100%); 
+    background: rgb(110,231,249);
+    background: linear-gradient(259deg, rgba(110,231,249,1) 0%, rgba(27,43,87,1) 100%); 
   }
   
    a {
