@@ -10,10 +10,6 @@ const Container = styled.div`
   position: relative;
   display: flex;
   flex-direction: column;
-
-  @media only screen and (max-width: 1200px) {
-    padding-left: 40px;
-  }
 `;
 
 const InnerWrapper = styled.div`
@@ -67,8 +63,9 @@ const Desc = styled.h2`
   font-weight: bold;
   margin-bottom: 60px;
 
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 1200px) {
     font-size: 3.5em;
+    text-align:center;
   }
 `;
 
@@ -83,6 +80,12 @@ const DownIcon = styled.span`
 `;
 
 const CallToAction = styled.div`
+
+  
+  @media only screen and (max-width: 1200px) {
+    text-align:center;
+  }
+
   a {
     color: white;
     text-decoration: none;
