@@ -42,18 +42,8 @@ const Title = styled.h1`
     text-decoration: none;
 
     span {
-      font-weight: normal;
+      font-weight: 200;
     }
-  }
-
-  :before {
-    content: '';
-    width: 19px;
-    display: block;
-    height: 3px;
-    background: rgb(255, 0, 0);
-    top: 40px;
-    position: relative;
   }
 `;
 

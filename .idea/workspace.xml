@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2f88851-d642-418e-aa1d-9e6f48e09426" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/BackgroundVideo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/BackgroundVideo/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/BackgroundVideo/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+            <state relative-caret-position="688">
+              <caret line="195" column="25" selection-start-line="194" selection-start-column="7" selection-end-line="195" selection-end-column="25" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -85,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/Header/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
-              <caret line="171" column="42" selection-start-line="171" selection-start-column="42" selection-end-line="171" selection-end-column="42" />
+            <state relative-caret-position="172">
+              <caret line="46" column="3" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -116,8 +114,8 @@
         <option value="$PROJECT_DIR$/pages/_app.js" />
         <option value="$PROJECT_DIR$/pages/_document.js" />
         <option value="$PROJECT_DIR$/pages/index.js" />
-        <option value="$PROJECT_DIR$/components/BackgroundVideo/index.js" />
         <option value="$PROJECT_DIR$/components/Header/index.js" />
+        <option value="$PROJECT_DIR$/components/BackgroundVideo/index.js" />
       </list>
     </option>
   </component>
@@ -178,6 +176,11 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="personal-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-website" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -223,12 +226,12 @@
       <option name="presentableId" value="Default" />
       <updated>1599556304097</updated>
       <workItem from="1599556305270" duration="3731000" />
-      <workItem from="1599625880818" duration="2584000" />
+      <workItem from="1599625880818" duration="8211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6315000" />
+    <option name="totallyTimeSpent" value="11942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="2576" height="1416" extended-state="6" />
@@ -366,6 +369,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/Header/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="46" column="3" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -378,18 +391,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/BackgroundVideo/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Header/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="171" column="42" selection-start-line="171" selection-start-column="42" selection-end-line="171" selection-end-column="42" />
+        <state relative-caret-position="688">
+          <caret line="195" column="25" selection-start-line="194" selection-start-column="7" selection-end-line="195" selection-end-column="25" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
