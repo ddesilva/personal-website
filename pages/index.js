@@ -65,7 +65,7 @@ const Desc = styled.h2`
 
   @media only screen and (max-width: 1200px) {
     font-size: 3.5em;
-    text-align:center;
+    text-align: center;
   }
 `;
 
@@ -75,15 +75,12 @@ const DownIcon = styled.span`
   display: inline-block;
   background: url(/image-sprite.png) no-repeat -5px -250px;
   vertical-align: middle;
-  margin-right: 1.0em;
-  
+  margin-right: 1em;
 `;
 
 const CallToAction = styled.div`
-
-  
   @media only screen and (max-width: 1200px) {
-    text-align:center;
+    text-align: center;
   }
 
   a {
@@ -91,17 +88,15 @@ const CallToAction = styled.div`
     text-decoration: none;
     font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
     font-weight: bold;
+    cursor:pointer;
   }
 `;
 
-const WorkDisc = styled.div`
-  font-size: 1.2em;
-  margin-bottom: 40px;
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-weight: bold;
-`;
-
 class Home extends Component {
+  learnMore = () => {
+    window.scroll({ top: 2500, left: 0, behavior: 'smooth' });
+  };
+
   render() {
     return (
       <>
@@ -116,7 +111,7 @@ class Home extends Component {
               </Desc>
 
               <CallToAction>
-                <a href="">
+                <a onClick={this.learnMore}>
                   <DownIcon />
                   Learn more
                 </a>

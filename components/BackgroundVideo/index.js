@@ -68,7 +68,7 @@ class BackgroundVideo extends Component {
     }, 500);
   };
 
-  componentWillMount() {
+  componentWillUnmount() {
     this.props.window.removeEventListener('resize', this.handleResize);
     this.script && this.script.removeEventListener('load', function () {});
   }
