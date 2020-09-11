@@ -67,6 +67,10 @@ const Desc = styled.h2`
     font-size: 3.5em;
     text-align: center;
   }
+  
+  @media only screen and (max-width: 768px) {
+    font-size: 2.5em;
+  }
 `;
 
 const DownIcon = styled.span`

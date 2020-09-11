@@ -195,6 +195,7 @@ class BackgroundVideo extends Component {
         {/*<CloudImage2 />*/}
         {/*<CloudImage />*/}
         {/*<IslandImage />*/}
+        <StyledDiv id={'cloud-animation'}></StyledDiv>
         <StyledDiv id={'background-animation'}></StyledDiv>
       </Video>
     );
