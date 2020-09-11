@@ -53,6 +53,10 @@ const SkillsItems = styled.div`
       height: auto;
       width: 300px;
       margin-bottom: 50px;
+
+      @media only screen and (max-width: 768px) {
+        width: 200px;
+      }
     }
   }
 `;
@@ -67,7 +71,7 @@ const Desc = styled.h2`
     font-size: 3.5em;
     text-align: center;
   }
-  
+
   @media only screen and (max-width: 768px) {
     font-size: 2.5em;
   }
@@ -92,7 +96,7 @@ const CallToAction = styled.div`
     text-decoration: none;
     font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
     font-weight: bold;
-    cursor:pointer;
+    cursor: pointer;
   }
 `;
 
